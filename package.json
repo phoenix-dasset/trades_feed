@@ -1,0 +1,35 @@
+{
+  "name": "trades",
+  "version": "1.0.0",
+  "description": "trades",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phoenix-dasset/easy-peasy-bot"
+  },
+  "keywords": [
+    "slack",
+    "bot"
+  ],
+  "author": "D.E. Goodman-Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phoenix-dasset/easy-peasy-bot/issues"
+  },
+  "homepage": "https://github.com/phoenix-dasset/easy-peasy-bot#readme",
+  "engines": {
+    "node": "8.9.1"
+  },
+  "dependencies": {
+    "botkit": "0.2.2",
+    "botkit-storage-mongo": "^1.0.2",
+    "lodash": "^4.17.4",
+    "lodash.isequal": "^4.5.0",
+    "underscore": "^1.8.3",
+    "ws": "^5.1.0"
+  }
+}
